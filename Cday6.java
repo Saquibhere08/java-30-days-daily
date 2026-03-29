@@ -1,8 +1,9 @@
 package Conditionals;
 import java.util.Scanner;
+
 public class Cday6 {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the values:(1-7) ");
         int inp=sc.nextInt();
@@ -36,6 +37,8 @@ public class Cday6 {
                 System.out.println("Sunday!!");
                 break;
             }
+            default:
+                System.out.println("Invalid Output");
         }
         
     }
